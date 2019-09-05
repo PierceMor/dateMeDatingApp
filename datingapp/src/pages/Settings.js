@@ -1,0 +1,1 @@
+//Allows users to edit profile, change preferences, edit UI (dark mode?), and delete profile

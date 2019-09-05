@@ -4,6 +4,7 @@ The start of a basic dating app
 
 ## Objectives:
     Login and authenticate 
+        Auth set up with Firebase
     Make Profile
         Add picture, Bio, gather location
     Edit settings
@@ -15,3 +16,4 @@ The start of a basic dating app
     Super Like
     Persoanlity Quiz
         this will edit which profiles you see 
+    Admin Page, allowing for multiple types of signins 
