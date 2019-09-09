@@ -1,17 +1,17 @@
-//users home page
+//404 Not Found Page
 
 import React, { Component } from 'react';
 
-class Home extends Component {
+class NotFound extends Component {
     render (){
         return (
             <div>
                 <h1>
-                    Home
+                    NotFound
                 </h1>
             </div>
         )
     }
 }
 
-export default Home;
+export default NotFound;

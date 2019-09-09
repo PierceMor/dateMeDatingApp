@@ -11,13 +11,13 @@ import firebase from 'firebase';
 import firebaseui from 'firebaseui';
 
 
-const useStyles = makeStyles(them => ({
+var useStyles = makeStyles(theme => ({
 
     root: {
         flexGrow: 1,
     },
     menuButton: {
-        marginRight: them.spacing(2),
+        marginRight: theme.spacing(2),
     },
     title: {
         flexGrow: 1, 
@@ -26,11 +26,11 @@ const useStyles = makeStyles(them => ({
 })); //userStyles
 
 export default function Header(){
-    const classes = useStyles(); 
+    var classes = useStyles(); 
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="sticky" >
                 <Toolbar>
                     <IconButton edge="static" className={classes.menuButton} color="inherit" aria-label='menu' >
                         <MenuIcon /> 
